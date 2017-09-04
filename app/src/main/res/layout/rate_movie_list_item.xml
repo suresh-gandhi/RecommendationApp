@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="220dp"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rate_backdrop_image"
+        android:scaleType="centerCrop"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/layerblackbottomimage"
+        android:scaleType="centerCrop"
+        android:id="@+id/black_transparent_layer"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:id="@+id/rate_genres_text"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:paddingLeft="6dp"-->
+        <!--android:paddingBottom="8dp"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        android:text="Action | Adventure"/>
+
+    <android.support.v7.widget.AppCompatRatingBar
+      android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/rating_bar"
+        android:stepSize="1"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:layout_marginStart="5dp"
+        android:transformPivotX="0dp"
+        android:transformPivotY="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:theme="@style/RatingBar"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <!--<ImageView-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/tickblackshade"-->
+        <!--android:src="@drawable/heartshadeblack"-->
+        <!--android:scaleType="centerCrop"/>-->
+
+    <!--<ImageView android:layout_width="45dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:src="@drawable/ic_album_white_24dp"-->
+        <!--android:id="@+id/prompt_image_view"-->
+        <!--android:visibility="gone"-->
+        <!--android:elevation="6dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_margin="10dp" />-->
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/rate_title_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="8dp"
+        android:paddingBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Minions"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+</RelativeLayout>

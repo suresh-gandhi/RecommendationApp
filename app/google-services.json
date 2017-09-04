@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "563166575439",
+    "firebase_url": "https://titanic-b942a.firebaseio.com",
+    "project_id": "titanic-b942a",
+    "storage_bucket": "titanic-b942a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563166575439:android:f1b6b70ae73f2efa",
+        "android_client_info": {
+          "package_name": "com.example.android.titanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563166575439-m7r8aoep2efiec8udg1rjv3bqb3ru1su.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.titanic",
+            "certificate_hash": "03bb9102cdce945bec90458f6e1b5059a1b92b17"
+          }
+        },
+        {
+          "client_id": "563166575439-esg5vk20fujvp4a8pg99iks87kch57i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMVgUGUlszumLtOYdAJBDCa2Se9YCMBmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563166575439-esg5vk20fujvp4a8pg99iks87kch57i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
