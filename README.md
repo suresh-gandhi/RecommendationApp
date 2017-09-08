@@ -1,6 +1,9 @@
 # RecommendationApp
 ## Movie Recommendation Android Application
 
+TEAM NAME - APPERS 
+TEAM MEMBERS - MYSELF AND SHUBHAM CHANDAK
+
 * This is the Movie Recommendation Android Application - "Titanic". 
 
 * **Firebase** has been used to integrate *Google Sign-In* and *Email Sign-Up* functionalities. 
